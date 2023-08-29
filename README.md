@@ -14,8 +14,7 @@ apt install git
 2 - Instale o repositorio no seu sistema MkAuth
 ```sh
 cd /var/www
-git clone https://github.com/MKCodec/PhpMyadmin.git
-mv PhpMyadmin servidor
+git clone https://github.com/MKCodec/PhpMyadmin.git servidor
 ```
 3 - Gere sua senha de Acesso
 ```sh
