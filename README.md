@@ -23,7 +23,7 @@ htpasswd -c /var/www/servidor/htpasswd admin
 
 4 - Acesse o arquivo de configuração do apache e insira o codigo no final do arquivo
 ```sh
-nano /etc/apache2/apache2.conf
+nano /etc/apache2/sites-enabled/default-ssl.conf
 ```
 
 ```sh
