@@ -27,7 +27,7 @@ nano /etc/apache2/apache2.conf
 ```
 
 ```sh
-<Directory /var/www/html/servidor>  
+<Directory /var/www/servidor>  
      Options Indexes Includes FollowSymLinks MultiViews  
      AllowOverride AuthConfig  
      Order allow,deny  
