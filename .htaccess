@@ -1,4 +1,4 @@
-AuthType Basic
-AuthName "Restricted Content"
-AuthUserFile /var/www/servidor/htpasswd
-Require valid-user
+ AuthType Basic  
+ AuthName "Acesso Proibido"  
+ AuthUserFile  /var/www/servidor/htpasswd  
+ Require user admin
