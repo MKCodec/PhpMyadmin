@@ -45,5 +45,8 @@ service apache2 restart
 seudominio.com/servidor
 ```
 
-
+### Dados de autenticação do MkAuth
+| Sistema | Servidor | Usuário | Senha | Base de dados
+| ------ | ------ | ------ | ------ | ------ 
+| MySQL | localhost | root | vertrigo | mkradius |
 
