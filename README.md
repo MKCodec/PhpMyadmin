@@ -40,7 +40,7 @@ service apache2 restart
 ```
 
 ### Acesse o PhpMyadmin no MkAuth
-* Utilize o usuario admin mais a senha que você criou
+* Utilize o usuario admin com a senha que você criou
 ```sh
 seudominio.com/servidor
 ```
