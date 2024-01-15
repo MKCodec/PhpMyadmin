@@ -10,7 +10,10 @@
 ### Configuração no MkAuth via Putty
 1 - Instale o git no seu sistema MkAuth
 ```sh
-apt update && apt install git -s
+apt update
+```
+```sh
+apt install git -s
 ```
 
 2 - Instale o repositorio no seu sistema MkAuth
