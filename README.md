@@ -10,10 +10,10 @@
 ### Configuração no MkAuth via Putty
 1 - Instale o git no seu sistema MkAuth
 ```sh
-apt update
+sudo apt update
 ```
 ```sh
-apt install git -s
+sudo apt install git -s
 ```
 
 2 - Instale o repositorio no seu sistema MkAuth
@@ -21,16 +21,16 @@ apt install git -s
 cd /var/www
 ```
 ```sh
-git clone https://github.com/MKCodec/PhpMyadmin.git servidor
+sudo git clone https://github.com/MKCodec/PhpMyadmin.git servidor
 ```
 3 - Gere sua senha de Acesso
 ```sh
-htpasswd -c /var/www/servidor/htpasswd admin
+sudo htpasswd -c /var/www/servidor/htpasswd admin
 ```
 
 4 - Acesse o arquivo de configuração do apache e insira o codigo no final do arquivo
 ```sh
-nano /etc/apache2/apache2.conf
+sudo nano /etc/apache2/apache2.conf
 ```
 
 ```sh
@@ -44,7 +44,7 @@ nano /etc/apache2/apache2.conf
 
 5 - Reinicie o Apache
 ```sh
-service apache2 restart
+sudo service apache2 restart
 ```
 
 ### Acesse o PhpMyadmin no MkAuth
