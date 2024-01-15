@@ -13,7 +13,7 @@
 sudo apt update
 ```
 ```sh
-sudo apt install git -s
+sudo apt-get install git -s
 ```
 
 2 - Instale o repositorio no seu sistema MkAuth
